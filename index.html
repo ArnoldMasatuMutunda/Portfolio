@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arnold Masatu Mutunda | Data Science & Data Engineering Portfolio</title>
+  <meta name="description" content="Portfolio of Arnold Masatu Mutunda - B.Tech CSE (Data Science & Data Engineering) at Lovely Professional University. Explore data analytics projects, verified certifications, and interactive engineering tools.">
+  <meta name="author" content="Arnold Masatu Mutunda">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Arnold Masatu Mutunda - Data Science & Engineering Portfolio">
+  <meta property="og:description" content="Explore real-world data science projects, verified certifications, and interactive algorithmic tools.">
+
+  <!-- Apple Touch & Favicon Styling -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'></text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/animations.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       Apple Top Status Bar
+       ========================================== -->
+  <header class="apple-top-bar" id="appleTopBar">
+    <div class="top-bar-left">
+      <a href="#hero" class="apple-logo-icon" title="Arnold Masatu Mutunda">
+        <svg width="18" height="22" viewBox="0 0 170 170" fill="currentColor">
+          <path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.7-3.04-7.7-7.88-12-14.52-6.52-10.1-11.66-21.72-15.42-34.86-3.75-13.13-5.63-25.59-5.63-37.38 0-14.12 3.49-26.04 10.46-35.75 6.98-9.72 15.93-14.67 26.86-14.86 4.35 0 9.29 1.14 14.83 3.42 5.54 2.28 9.38 3.47 11.53 3.57 1.74 0 5.86-1.32 12.37-3.96 6.51-2.65 11.96-3.8 16.36-3.46 12.52.88 22.38 5.68 29.58 14.4-10.99 6.64-16.38 15.82-16.16 27.53.22 9.24 3.79 16.96 10.72 23.16 6.92 6.21 15.22 9.77 24.89 10.69-2.18 6.52-4.8 13.06-7.88 19.64zM119.22 32.64c0-7.29 2.65-14.13 7.95-20.52 5.3-6.39 11.97-10.43 20.02-12.12.87 7.07-1.42 13.82-6.86 20.25-5.44 6.44-12.14 10.56-20.11 12.39-.33-.67-.67-1.42-1-2.25z"/>
+        </svg>
+      </a>
+      <span class="top-bar-title">Arnold Mutunda</span>
+      <span class="top-bar-status-badge">
+        <span class="status-dot"></span>
+        Available for Roles
+      </span>
+    </div>
+    <div class="top-bar-right">
+      <span class="top-bar-time" id="topBarClock">Loading...</span>
+      <div class="apple-theme-segmented" role="radiogroup" aria-label="Theme Selection">
+        <button class="theme-segment-btn active" data-theme-set="dark" title="Space Black Theme">
+          <span>🌙</span>
+          <span>Dark</span>
+        </button>
+        <button class="theme-segment-btn" data-theme-set="gold" title="Desert Titanium Gold Theme">
+          <span>👑</span>
+          <span>Gold</span>
+        </button>
+        <button class="theme-segment-btn" data-theme-set="light" title="Silver Aluminum Light Theme">
+          <span>☀️</span>
+          <span>Light</span>
+        </button>
+      </div>
+      <a href="https://docs.google.com/document/d/1f2kM-PPQNumLbZmpL0QDzCM7s6C4rb9X/edit?usp=drive_link&ouid=117511240781987897254&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="apple-btn apple-btn-primary" style="padding: 6px 14px; font-size: 0.78rem;">
+        View CV
+      </a>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       Floating Apple Dock Navigation
+       ========================================== -->
+  <div class="dock-container">
+    <nav class="apple-dock" aria-label="Quick Navigation Dock">
+      <a href="#hero" class="dock-item active" id="dockHero">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+        <span>Overview</span>
+      </a>
+
+      <a href="#projects" class="dock-item" id="dockProjects">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+          <polyline points="2 17 12 22 22 17"></polyline>
+          <polyline points="2 12 12 17 22 12"></polyline>
+        </svg>
+        <span>Projects</span>
+      </a>
+
+      <a href="#simulator" class="dock-item" id="dockSimulator">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polygon points="10 8 16 12 10 16 10 8"></polygon>
+        </svg>
+        <span>Simulator</span>
+      </a>
+
+      <a href="#certificates" class="dock-item" id="dockCertificates">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+          <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+        <span>Certificates</span>
+      </a>
+
+      <a href="#skills" class="dock-item" id="dockSkills">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+          <line x1="8" y1="21" x2="16" y2="21"></line>
+          <line x1="12" y1="17" x2="12" y2="21"></line>
+        </svg>
+        <span>Skills</span>
+      </a>
+
+      <a href="#education" class="dock-item" id="dockEducation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+          <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+        </svg>
+        <span>Education</span>
+      </a>
+
+      <div class="dock-separator"></div>
+
+      <a href="#contact" class="dock-item" id="dockContact">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        <span>Contact</span>
+      </a>
+    </nav>
+  </div>
+
+  <!-- ==========================================
+       Main Page Container
+       ========================================== -->
+  <main class="page-container">
+
+    <!-- HERO / OVERVIEW SECTION -->
+    <section id="hero" class="reveal-on-scroll">
+      <div class="hero-grid">
+        
+        <!-- Left Hero Bento Card -->
+        <div class="hero-main-card glass-reflection">
+          <div>
+            <div class="hero-tagline">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              <span>Computer Science • Data Science & Engineering</span>
+            </div>
+            <h1 class="hero-headline">
+              Engineering insights from data. <br>
+              <span class="text-gradient">Building scalable systems.</span>
+            </h1>
+            <p class="hero-bio">
+              Hello, I am <strong>Arnold Masatu Mutunda</strong>, a B.Tech Computer Science and Engineering student specializing in Data Science & Data Engineering at Lovely Professional University. I architect high-impact data workflows, algorithmic simulations, and analytical platforms that translate complex datasets into actionable intelligence.
+            </p>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="apple-btn apple-btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              Explore Projects
+            </a>
+            <a href="#certificates" class="apple-btn apple-btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+              View 7 Certificates
+            </a>
+            <a href="https://github.com/ArnoldMasatuMutunda" target="_blank" rel="noopener noreferrer" class="apple-btn apple-btn-glass" title="Arnold's GitHub Profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/arnold-mutunda" target="_blank" rel="noopener noreferrer" class="apple-btn apple-btn-glass" title="Arnold's LinkedIn Profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Bento Column: Profile Card + Quick Stats -->
+        <div class="hero-side-column">
+          
+          <!-- Profile Avatar Card -->
+          <div class="profile-avatar-card glass-reflection">
+            <div class="profile-avatar-wrapper">
+              <img src="assets/images/arnold_profile.jpg" alt="Arnold Masatu Mutunda Profile Picture" loading="eager">
+            </div>
+            <div class="profile-info">
+              <h3>Arnold Masatu Mutunda</h3>
+              <p class="sub-title">Data Science & Data Engineering</p>
+              <div class="profile-badges">
+                <span class="pill-badge lpu">Lovely Professional University</span>
+                <span class="pill-badge">CGPA: 7.0</span>
+                <span class="pill-badge">PCM: 82%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 Stats Bento Widgets -->
+          <div class="hero-stats-grid">
+            <div class="stat-widget">
+              <div class="stat-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                </svg>
+              </div>
+              <div class="stat-number">50+ Yrs</div>
+              <div class="stat-label">Global Trade Datasets Analyzed</div>
+            </div>
+
+            <div class="stat-widget">
+              <div class="stat-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <div class="stat-number">99,492</div>
+              <div class="stat-label">Emergency Call Records Modeled</div>
+            </div>
+
+            <div class="stat-widget">
+              <div class="stat-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <div class="stat-number">7</div>
+              <div class="stat-label">Verified Certifications</div>
+            </div>
+
+            <div class="stat-widget">
+              <div class="stat-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                </svg>
+              </div>
+              <div class="stat-number">4</div>
+              <div class="stat-label">Algorithms in Simulator Engine</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         FEATURED PROJECTS SECTION
+         ========================================== -->
+    <section id="projects" class="reveal-on-scroll">
+      <div class="section-header">
+        <span class="section-eyebrow">Portfolio Works</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Real-world data science pipelines, geospatial analysis, and interactive systems engineered for analytical rigor.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: World Bank -->
+        <article class="macos-window project-card glass-reflection">
+          <div class="macos-window-header">
+            <div class="window-traffic-lights">
+              <span class="traffic-light traffic-red"></span>
+              <span class="traffic-light traffic-yellow"></span>
+              <span class="traffic-light traffic-green"></span>
+            </div>
+            <span class="window-title">world-bank-trade-growth-analysis</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta-row">
+              <span class="project-category">Data Science & Power BI</span>
+              <span class="project-date">Jun '26</span>
+            </div>
+            <h3 class="project-name">World Bank Global Trade Growth Analysis</h3>
+            <p class="project-description">
+              Engineered an end-to-end macroeconomic data workflow using World Bank international trade datasets spanning over 50 years of import and export dynamics.
+            </p>
+            <ul class="project-highlights">
+              <li>Cleaned and reshaped wide-format datasets into long format with automated missing value handling and key merging.</li>
+              <li>Engineered custom Trade Balance Growth, Export Volatility, and Trade Growth Difference analytical metrics.</li>
+              <li>Delivered comparative visualizations and an interactive Power BI dashboard examining India versus Tanzania trade relations.</li>
+            </ul>
+            <div class="tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">NumPy</span>
+              <span class="tech-tag">Seaborn</span>
+              <span class="tech-tag">Power BI</span>
+              <span class="tech-tag">Jupyter</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/ArnoldMasatuMutunda/world-bank-trade-growth-analysis" target="_blank" rel="noopener noreferrer" class="project-repo-link">
+                <span>View on GitHub</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <span class="pill-badge">Macroeconomic Modeling</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: 911 Calls -->
+        <article class="macos-window project-card glass-reflection">
+          <div class="macos-window-header">
+            <div class="window-traffic-lights">
+              <span class="traffic-light traffic-red"></span>
+              <span class="traffic-light traffic-yellow"></span>
+              <span class="traffic-light traffic-green"></span>
+            </div>
+            <span class="window-title">911-calls-analysis</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta-row">
+              <span class="project-category">Geospatial & EDA</span>
+              <span class="project-date">Oct '24</span>
+            </div>
+            <h3 class="project-name">911 Calls Geospatial & Operational Analysis</h3>
+            <p class="project-description">
+              Processed and examined 99,492 emergency dispatch records to uncover operational dispatch patterns, emergency reason distributions, and municipal call hotspots.
+            </p>
+            <ul class="project-highlights">
+              <li>Engineered temporal features from raw timestamps (emergency category, hour, month, day of week, seasonal shifts).</li>
+              <li>Constructed clustermaps, violin plots, and multi-variable correlation heatmaps using Plotly and Seaborn.</li>
+              <li>Integrated web data retrieval with geospatial pipelines to generate interactive choropleth maps of township call densities.</li>
+            </ul>
+            <div class="tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Plotly</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">BeautifulSoup</span>
+              <span class="tech-tag">GeoJSON</span>
+              <span class="tech-tag">Seaborn</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/ArnoldMasatuMutunda/911-calls-analysis" target="_blank" rel="noopener noreferrer" class="project-repo-link">
+                <span>View on GitHub</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <span class="pill-badge">99.5k Records</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Disk Simulator -->
+        <article class="macos-window project-card glass-reflection">
+          <div class="macos-window-header">
+            <div class="window-traffic-lights">
+              <span class="traffic-light traffic-red"></span>
+              <span class="traffic-light traffic-yellow"></span>
+              <span class="traffic-light traffic-green"></span>
+            </div>
+            <span class="window-title">Advanced-Disk-Scheduling-Simulator</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta-row">
+              <span class="project-category">Systems & Algorithms</span>
+              <span class="project-date">Jun '26</span>
+            </div>
+            <h3 class="project-name">Advanced Disk Scheduling Simulator</h3>
+            <p class="project-description">
+              Interactive browser-based engine simulating operating system disk-arm scheduling algorithms with step-by-step metrics and visual head movement analysis.
+            </p>
+            <ul class="project-highlights">
+              <li>Full algorithmic implementations of FCFS, SSTF, SCAN, and C-SCAN scheduling policies.</li>
+              <li>Calculates Total Seek Time, Average Seek Time, and head directional reversals across request queues.</li>
+              <li>Zero-install browser execution, input validation, and responsive visualization engine.</li>
+            </ul>
+            <div class="tech-tags">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">HTML5 Canvas</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">Algorithms</span>
+              <span class="tech-tag">OS Design</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/ArnoldMasatuMutunda/Advanced-Disk-Scheduling-Simulator" target="_blank" rel="noopener noreferrer" class="project-repo-link">
+                <span>View on GitHub</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#simulator" class="pill-badge lpu">Live Demo Below ↓</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: Ticketing Platform -->
+        <article class="macos-window project-card glass-reflection">
+          <div class="macos-window-header">
+            <div class="window-traffic-lights">
+              <span class="traffic-light traffic-red"></span>
+              <span class="traffic-light traffic-yellow"></span>
+              <span class="traffic-light traffic-green"></span>
+            </div>
+            <span class="window-title">ticketing-platform</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta-row">
+              <span class="project-category" style="color: var(--apple-orange);">Web Architecture</span>
+              <span class="pill-badge ongoing">
+                <span class="pulse-dot-orange"></span>
+                Ongoing Project
+              </span>
+            </div>
+            <h3 class="project-name">Modern Ticketing & Event Platform</h3>
+            <p class="project-description">
+              <strong>Ongoing Project:</strong> An enterprise-grade, responsive event ticketing and reservation platform engineered with structured workflow states, seat reservation engines, and real-time transaction processing.
+            </p>
+            <ul class="project-highlights">
+              <li><strong>Ongoing Architecture:</strong> Developing modular lifecycle states for reservation checkout, dynamic ticket dispatch, and QR validation.</li>
+              <li>Engineered clean responsive UI with instant client-side validation guards and transaction idempotency.</li>
+              <li>Active development on RESTful microservice synchronization and offline resilience.</li>
+            </ul>
+            <div class="tech-tags">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">Web Architecture</span>
+              <span class="tech-tag" style="border-color: rgba(255, 159, 10, 0.4); color: var(--apple-orange);">In Active Development</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/ArnoldMasatuMutunda/ticketing-platform" target="_blank" rel="noopener noreferrer" class="project-repo-link">
+                <span>View on GitHub</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <span class="pill-badge ongoing"><span class="pulse-dot-orange"></span> Ongoing Project</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- ==========================================
+         INTERACTIVE SIMULATOR WIDGET (LIVE DEMO)
+         ========================================== -->
+    <section id="simulator" class="reveal-on-scroll">
+      <div class="section-header">
+        <span class="section-eyebrow">Interactive Technology Demonstration</span>
+        <h2 class="section-title">Disk Scheduling Engine Playground</h2>
+        <p class="section-subtitle">Experience Arnold's Disk Scheduling Simulator live in the browser. Test cylinder queue sequences and compare seek times in real time.</p>
+      </div>
+
+      <div class="simulator-card glass-reflection">
+        <div class="macos-window-header">
+          <div class="window-traffic-lights">
+            <span class="traffic-light traffic-red"></span>
+            <span class="traffic-light traffic-yellow"></span>
+            <span class="traffic-light traffic-green"></span>
+          </div>
+          <span class="window-title">DiskSimulator.app — Live Canvas Visualization</span>
+        </div>
+
+        <div class="simulator-inner">
+          <div class="sim-controls-grid">
+            <div class="form-group">
+              <label for="simQueueInput">Track Request Queue (0 - 199 cylinders)</label>
+              <input type="text" id="simQueueInput" class="form-input" value="98, 183, 37, 122, 14, 124, 65, 67" placeholder="e.g. 98, 183, 37, 122, 14">
+            </div>
+            <div class="form-group">
+              <label for="simHeadInput">Initial Disk Head Position</label>
+              <input type="number" id="simHeadInput" class="form-input" value="53" min="0" max="199">
+            </div>
+            <div class="form-group">
+              <label for="simAlgoSelect">Scheduling Algorithm</label>
+              <select id="simAlgoSelect" class="form-select">
+                <option value="SSTF" selected>SSTF (Shortest Seek Time First)</option>
+                <option value="FCFS">FCFS (First-Come First-Served)</option>
+                <option value="SCAN">SCAN (Elevator Algorithm)</option>
+                <option value="C-SCAN">C-SCAN (Circular SCAN)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <button id="simRunBtn" class="apple-btn apple-btn-primary" style="height: 42px;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+                  <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+                Run Simulation
+              </button>
+            </div>
+          </div>
+
+          <!-- Simulation Live Stats -->
+          <div class="sim-results-grid">
+            <div class="sim-stat-box">
+              <div class="sim-metric-val" id="simTotalSeek">--</div>
+              <div class="sim-metric-lbl">Total Seek Distance (Cylinders)</div>
+            </div>
+            <div class="sim-stat-box">
+              <div class="sim-metric-val" id="simAvgSeek">--</div>
+              <div class="sim-metric-lbl">Average Seek Time</div>
+            </div>
+            <div class="sim-stat-box">
+              <div class="sim-metric-val" id="simSequence" style="font-size: 1rem; word-break: break-all;">--</div>
+              <div class="sim-metric-lbl">Traversal Sequence Path</div>
+            </div>
+          </div>
+
+          <!-- Canvas Visualization Container -->
+          <div class="sim-visualization-container">
+            <canvas id="diskCanvas" height="200"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CERTIFICATES SECTION (WITH APPLE SHEET MODAL)
+         ========================================== -->
+    <section id="certificates" class="reveal-on-scroll">
+      <div class="section-header">
+        <span class="section-eyebrow">Verified Credentials</span>
+        <h2 class="section-title">Certifications & Honors</h2>
+        <p class="section-subtitle">Official verified certificates from Google, Infosys, NeoColab, and accredited technical programs. Click any card to preview in the Apple Sheet Viewer.</p>
+      </div>
+
+      <div class="certs-grid">
+
+        <!-- Cert 1: Google Foundations -->
+        <div class="cert-card glass-reflection" data-cert-id="google_data">
+          <div class="cert-card-top">
+            <span class="cert-issuer-badge">Google & Coursera</span>
+            <span class="cert-date">Mar 2024</span>
+          </div>
+          <div class="cert-card-middle">
+            <h3 class="cert-title">Foundations: Data, Data, Everywhere</h3>
+            <p class="cert-summary">Foundational data science & data engineering lifecycle: analytical frameworks, SQL queries, data spreadsheets, and decision ecosystems.</p>
+          </div>
+          <div class="cert-card-bottom">
+            <span class="cert-action-hint">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              Click to Preview
+            </span>
+            <span class="cert-status-tag">✓ Verified</span>
+          </div>
+        </div>
+
+        <!-- Cert 2: Infosys Excel -->
+        <div class="cert-card glass-reflection" data-cert-id="excel">
+          <div class="cert-card-top">
+            <span class="cert-issuer-badge">Infosys Springboard</span>
+            <span class="cert-date">Aug 2026</span>
+          </div>
+          <div class="cert-card-middle">
+            <h3 class="cert-title">Advanced Microsoft Excel</h3>
+            <p class="cert-summary">Professional analytical spreadsheet modeling, Pivot tables, statistical equations, XLOOKUP lookups, and visual data presentations.</p>
+          </div>
+          <div class="cert-card-bottom">
+            <span class="cert-action-hint">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              Click to Preview
+            </span>
+            <span class="cert-status-tag">✓ Verified</span>
+          </div>
+        </div>
+
+        <!-- Cert 3: DSA NeoColab -->
+        <div class="cert-card glass-reflection" data-cert-id="dsa">
+          <div class="cert-card-top">
+            <span class="cert-issuer-badge">NeoColab</span>
+            <span class="cert-date">Apr 2026</span>
+          </div>
+          <div class="cert-card-middle">
+            <h3 class="cert-title">Data Structures and Algorithms</h3>
+            <p class="cert-summary">Mastery in asymptotic analysis, Binary Search Trees, Graph traversals, Dynamic Programming, Heap queues, and problem-solving patterns.</p>
+          </div>
+          <div class="cert-card-bottom">
+            <span class="cert-action-hint">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              Click to Preview
+            </span>
+            <span class="cert-status-tag">✓ Verified</span>
+          </div>
+        </div>
+
+        <!-- Cert 4: Time Management MOOC -->
+        <div class="cert-card glass-reflection" data-cert-id="time_mgmt">
+          <div class="cert-card-top">
+            <span class="cert-issuer-badge">Master Union / MOOC</span>
+            <span class="cert-date">Oct 2024</span>
+          </div>
+          <div class="cert-card-middle">
+            <h3 class="cert-title">Effective Time Management MOOC</h3>
+            <p class="cert-summary">Productivity frameworks, Eisenhower decision matrices, agile task sprints, high-focus workflows, and operational time distribution.</p>
+          </div>
+          <div class="cert-card-bottom">
+            <span class="cert-action-hint">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              Click to Preview
+            </span>
+            <span class="cert-status-tag">✓ Verified</span>
+          </div>
+        </div>
+
+        <!-- Cert 5: C++ Specialist -->
+        <div class="cert-card glass-reflection" data-cert-id="cpp">
+          <div class="cert-card-top">
+            <span class="cert-issuer-badge">Technical Certification</span>
+            <span class="cert-date">2024 - 2025</span>
+          </div>
+          <div class="cert-card-middle">
+            <h3 class="cert-title">C++ Programming Specialist</h3>
+            <p class="cert-summary">Modern C++ idioms, Standard Template Library (STL), object-oriented architectures, custom memory allocation, and high-performance algorithms.</p>
+          </div>
+          <div class="cert-card-bottom">
+            <span class="cert-action-hint">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              Click to Preview
+            </span>
+            <span class="cert-status-tag">✓ Verified</span>
+          </div>
+        </div>
+
+        <!-- Cert 6: Java Certification -->
+        <div class="cert-card glass-reflection" data-cert-id="java">
+          <div class="cert-card-top">
+            <span class="cert-issuer-badge">Programming Series</span>
+            <span class="cert-date">2024 - 2025</span>
+          </div>
+          <div class="cert-card-middle">
+            <h3 class="cert-title">Java Programming Certification</h3>
+            <p class="cert-summary">Object-oriented software design in Java, Collections framework, Exception management, Stream APIs, Multithreading, and JVM mechanics.</p>
+          </div>
+          <div class="cert-card-bottom">
+            <span class="cert-action-hint">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              Click to Preview
+            </span>
+            <span class="cert-status-tag">✓ Verified</span>
+          </div>
+        </div>
+
+        <!-- Cert 7: C Language -->
+        <div class="cert-card glass-reflection" data-cert-id="c_lang">
+          <div class="cert-card-top">
+            <span class="cert-issuer-badge">Systems Engineering</span>
+            <span class="cert-date">2024 - 2025</span>
+          </div>
+          <div class="cert-card-middle">
+            <h3 class="cert-title">C Language Programming</h3>
+            <p class="cert-summary">Low-level systems programming fundamentals, pointers and reference management, bitwise operations, custom data structures, and file I/O.</p>
+          </div>
+          <div class="cert-card-bottom">
+            <span class="cert-action-hint">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              Click to Preview
+            </span>
+            <span class="cert-status-tag">✓ Verified</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         TECHNICAL SKILLS (APPLE BENTO WIDGETS)
+         ========================================== -->
+    <section id="skills" class="reveal-on-scroll">
+      <div class="section-header">
+        <span class="section-eyebrow">Core Capabilities</span>
+        <h2 class="section-title">Skills & Technical Stack</h2>
+        <p class="section-subtitle">Proficient across modern programming languages, big data processing pipelines, visualization suites, and development tooling.</p>
+      </div>
+
+      <div class="skills-bento-grid">
+        
+        <!-- Widget 1: Programming Languages -->
+        <div class="skills-widget glass-reflection">
+          <div class="skills-widget-header">
+            <div class="skills-widget-icon icon-blue">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="skills-widget-title">Programming Languages</h3>
+          </div>
+          <div class="skill-pills-list">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">C++</span>
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">C Language</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">HTML5</span>
+            <span class="skill-pill">CSS3</span>
+          </div>
+        </div>
+
+        <!-- Widget 2: Data Science & Analytics -->
+        <div class="skills-widget glass-reflection">
+          <div class="skills-widget-header">
+            <div class="skills-widget-icon icon-teal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="skills-widget-title">Data Science & BI</h3>
+          </div>
+          <div class="skill-pills-list">
+            <span class="skill-pill">Pandas</span>
+            <span class="skill-pill">NumPy</span>
+            <span class="skill-pill">Power BI</span>
+            <span class="skill-pill">Tableau</span>
+            <span class="skill-pill">Plotly & Cufflinks</span>
+            <span class="skill-pill">Matplotlib & Seaborn</span>
+            <span class="skill-pill">Microsoft Excel Advanced</span>
+            <span class="skill-pill">ETL Pipelines</span>
+            <span class="skill-pill">Geospatial Processing</span>
+          </div>
+        </div>
+
+        <!-- Widget 3: Tools & Methodologies -->
+        <div class="skills-widget glass-reflection">
+          <div class="skills-widget-header">
+            <div class="skills-widget-icon icon-purple">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="skills-widget-title">Databases & Environment</h3>
+          </div>
+          <div class="skill-pills-list">
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">MS SQL Server</span>
+            <span class="skill-pill">Git & GitHub</span>
+            <span class="skill-pill">VS Code</span>
+            <span class="skill-pill">Jupyter Notebooks</span>
+            <span class="skill-pill">Problem Solving</span>
+            <span class="skill-pill">Time Management</span>
+            <span class="skill-pill">Team Collaboration</span>
+            <span class="skill-pill">Adaptability</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         EDUCATION & BACKGROUND SECTION
+         ========================================== -->
+    <section id="education" class="reveal-on-scroll">
+      <div class="section-header">
+        <span class="section-eyebrow">Academic Foundation</span>
+        <h2 class="section-title">Education & Background</h2>
+        <p class="section-subtitle">Strong academic training in Computer Science, Data Engineering, Mathematics, and Analytical Problem Solving.</p>
+      </div>
+
+      <div class="education-timeline-grid">
+        
+        <!-- University -->
+        <div class="edu-card glass-reflection">
+          <div class="edu-card-top">
+            <h3 class="edu-institution">Lovely Professional University</h3>
+            <span class="edu-period">Aug '24 — Present</span>
+          </div>
+          <h4 class="edu-degree">Bachelor of Technology (B.Tech) in Computer Science & Engineering</h4>
+          <p class="edu-location">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Phagwara, Punjab, India • CGPA: 7.0
+          </p>
+          <ul class="edu-details-list">
+            <li>Specializing in <strong>Data Science and Data Engineering</strong>.</li>
+            <li>In-depth coursework in Data Structures, Relational Database Management, Operating Systems, Statistics, and Data Pipelines.</li>
+            <li>Practical hands-on engineering across algorithmic simulation, data transformation, and business intelligence dashboards.</li>
+          </ul>
+        </div>
+
+        <!-- High School -->
+        <div class="edu-card glass-reflection">
+          <div class="edu-card-top">
+            <h3 class="edu-institution">AHMES Secondary School</h3>
+            <span class="edu-period">Mar '21 — May '24</span>
+          </div>
+          <h4 class="edu-degree">Advanced Secondary School — PCM (Physics, Chemistry, Mathematics)</h4>
+          <p class="edu-location">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Pwani, Tanzania • Score: 82%
+          </p>
+          <ul class="edu-details-list">
+            <li>Rigorous mathematics, analytical reasoning, and physics foundation.</li>
+            <li>Graduated with high honors (82% aggregate score across PCM subjects).</li>
+            <li>Active participant in science seminars, analytical challenges, and leadership initiatives.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         CONTACT & CONNECT (APPLE CONTROL CENTER)
+         ========================================== -->
+    <section id="contact" class="reveal-on-scroll">
+      <div class="section-header">
+        <span class="section-eyebrow">Connect & Collaborate</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Interested in data science internships, engineering collaborations, or discussing projects? Reach out directly via email, phone, or LinkedIn.</p>
+      </div>
+
+      <div class="contact-layout-grid">
+        
+        <!-- Left: Quick Copy & Direct Channels -->
+        <div class="contact-quick-cards">
+          
+          <!-- Email Card -->
+          <div class="contact-item-card glass-reflection">
+            <div class="contact-icon-info">
+              <div class="contact-icon icon-blue">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">Email Address</div>
+                <div class="contact-value">mutundaarnoldmasatu@gmail.com</div>
+              </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button class="copy-btn" data-copy-text="mutundaarnoldmasatu@gmail.com" data-copy-label="Email">
+                Copy
+              </button>
+              <a href="mailto:mutundaarnoldmasatu@gmail.com" class="apple-btn apple-btn-primary" style="padding: 7px 14px; font-size: 0.78rem;">
+                Send Email
+              </a>
+            </div>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="contact-item-card glass-reflection">
+            <div class="contact-icon-info">
+              <div class="contact-icon icon-teal">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">Mobile Number</div>
+                <div class="contact-value">+91 8360632384</div>
+              </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button class="copy-btn" data-copy-text="+918360632384" data-copy-label="Phone number">
+                Copy
+              </button>
+              <a href="tel:+918360632384" class="apple-btn apple-btn-secondary" style="padding: 7px 14px; font-size: 0.78rem;">
+                Call
+              </a>
+            </div>
+          </div>
+
+          <!-- Professional Links Card -->
+          <div class="contact-item-card glass-reflection">
+            <div class="contact-icon-info">
+              <div class="contact-icon icon-purple">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">Professional Networks</div>
+                <div class="contact-value">LinkedIn & GitHub</div>
+              </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <a href="https://www.linkedin.com/in/arnold-mutunda" target="_blank" rel="noopener noreferrer" class="apple-btn apple-btn-secondary" style="padding: 7px 14px; font-size: 0.78rem;">
+                LinkedIn
+              </a>
+              <a href="https://github.com/ArnoldMasatuMutunda" target="_blank" rel="noopener noreferrer" class="apple-btn apple-btn-secondary" style="padding: 7px 14px; font-size: 0.78rem;">
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <!-- CV Document Card -->
+          <div class="contact-item-card glass-reflection">
+            <div class="contact-icon-info">
+              <div class="contact-icon icon-blue">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">Curriculum Vitae</div>
+                <div class="contact-value">Official CV Document (Google Docs)</div>
+              </div>
+            </div>
+            <div>
+              <a href="https://docs.google.com/document/d/1f2kM-PPQNumLbZmpL0QDzCM7s6C4rb9X/edit?usp=drive_link&ouid=117511240781987897254&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="apple-btn apple-btn-primary" style="padding: 7px 14px; font-size: 0.78rem;">
+                Open CV
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Message Form -->
+        <div class="contact-form-card glass-reflection">
+          <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 8px;">Direct Message</h3>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 20px;">Send a quick note or meeting request directly through this portal.</p>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="contactName">Your Name</label>
+              <input type="text" id="contactName" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Your Email</label>
+              <input type="email" id="contactEmail" class="form-input" placeholder="e.g. sarah@company.com" required>
+            </div>
+            <div class="form-group">
+              <label for="contactMsg">Message / Inquiry</label>
+              <textarea id="contactMsg" class="form-input" placeholder="Tell me about the role, project, or collaboration..." required></textarea>
+            </div>
+            <button type="submit" class="apple-btn apple-btn-primary" style="align-self: flex-start;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+              Send Message
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================
+       Apple Sheet Modal (Interactive Certificate Previewer)
+       ========================================== -->
+  <div class="modal-overlay" id="certModalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalCertTitle">
+    <div class="apple-sheet-modal">
+      <div class="sheet-modal-header">
+        <div>
+          <h3 class="sheet-modal-title" id="modalCertTitle">Certificate Preview</h3>
+          <p id="modalCertIssuer" style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 2px;">Google & Coursera • Mar 2024</p>
+        </div>
+        <button class="sheet-close-btn" id="certModalClose" aria-label="Close certificate viewer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="sheet-modal-body">
+        <div class="cert-preview-frame-wrapper">
+          <iframe id="certIframe" src="about:blank" title="Google Drive Certificate Document Preview" allow="autoplay"></iframe>
+        </div>
+        <p id="modalCertDesc" style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+          Detailed certificate description will appear here.
+        </p>
+      </div>
+
+      <div class="sheet-modal-footer">
+        <button class="apple-btn apple-btn-secondary" id="modalCopyLinkBtn" style="padding: 8px 16px; font-size: 0.82rem;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+          </svg>
+          Copy Share Link
+        </button>
+
+        <a id="modalDirectLinkBtn" href="#" target="_blank" rel="noopener noreferrer" class="apple-btn apple-btn-primary" style="padding: 8px 18px; font-size: 0.82rem;">
+          <span>Open Full in Google Drive</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       Apple Dynamic HUD Toast
+       ========================================== -->
+  <div class="apple-hud-toast" id="appleHudToast">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toastMessage">Action completed successfully</span>
+  </div>
+
+  <!-- ==========================================
+       Apple Clean Footer
+       ========================================== -->
+  <footer class="apple-footer">
+    <p>Designed with Apple Human Interface Guidelines aesthetic for <strong>Arnold Masatu Mutunda</strong>.</p>
+    <p>Computer Science & Engineering • Data Science & Data Engineering • Lovely Professional University</p>
+    <p style="margin-top: 12px; opacity: 0.7;">© 2026 Arnold Masatu Mutunda. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/simulator.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
